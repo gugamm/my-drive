@@ -1,0 +1,46 @@
+{
+  "name": "ts-quick-start",
+  "version": "1.0.0",
+  "description": "A typescript quickstarter project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugamm/ts-quick-start.git"
+  },
+  "author": "gugamm",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/joi": "^14.3.4",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/koa": "^2.11.4",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.1",
+    "@types/node": "^14.0.27",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "fork-ts-checker-webpack-plugin": "^5.0.14",
+    "nodemon": "^2.0.4",
+    "source-map-loader": "^1.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "dotenv": "^8.2.0",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "front/*",
+    "back/*"
+  ],
+  "npmClient": "npm",
+  "version": "independent"
+}
